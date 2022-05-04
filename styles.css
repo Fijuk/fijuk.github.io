@@ -1,24 +1,20 @@
-nav ul {
-    list-style: none; 	  
-    width: 20em;
-    border: thin solid;
-    background-color: white;
+ ul {
+   width:218px;
+   margin: 0 auto;
+   padding:0;
+ }
+ .nav {
+   float: left;
+   width: 400px;
+   padding 20px 0;
+   background: black;
+   color: #000;
 
-  }
-  nav li {
-    margin: 5em; 
-    border: thin solid;
-    background-color: #eee;
-    float: left;
-  }
-  nav a {
-    text-decoration: none; 
-    font-weight: bold;
-    color: black; 
-    background-color: none;
-  }
-  nav a:focus,
-  nav a:hover,
-  nav a:active {    
-    text-decoration: underline black;
-  }
+ }
+ li {
+   float: left;
+   list-style: none;
+   margin-right: 10px;
+   padding: 5px 10px;
+   backround: #fff;
+ }
