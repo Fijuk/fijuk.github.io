@@ -9,6 +9,7 @@ nav ul {
     margin: 5em; 
     border: thin solid;
     background-color: #eee;
+    float: left;
   }
   nav a {
     text-decoration: none; 
